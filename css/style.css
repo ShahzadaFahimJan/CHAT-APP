@@ -1,0 +1,94 @@
+body{
+   /* background-image: linear-gradient(rgb(162, 97, 97),rgb(119, 22, 119));*/
+   background-image: linear-gradient(rgba(139, 93, 93, 0.822), rgba(109, 39, 109, 0.712));
+
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+nav{
+  /*  background-color: #F8F9D2;
+    background-color: rgba(248, 249, 210, 0.5);*/
+    background-image: linear-gradient(to bottom right, rgba(248, 249, 210, 0.5), rgba(248, 249, 210, 1));
+
+
+}
+.logo
+{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+.logo:hover {
+    transform: scale(1.5); 
+  }
+  h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+
+.container
+{
+    max-width: 900px;
+    /*background-color: rgb(174, 164, 174);*/
+    background-image: linear-gradient(rgb(179, 133, 133), rgb(173, 125, 173));
+
+    margin: auto;
+    height: 60vh;
+    padding: 30px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.message
+{
+background-color: turquoise;
+width: 24%;
+padding: 14px;
+margin: 12px 1px;
+
+border-radius: 16px;
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: #DCF8C6;
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: #128C7E;
+    
+
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 950px;
+    width: 100%;
+}
+#messageInp{
+width:87%;
+border-radius: 5px;
+padding: 10px;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    width: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 36px;
+    padding: 11px;
+    background-color: aqua;
+    
+}
+.btn:hover{
+    background-color: rgb(62, 196, 196);
+}
